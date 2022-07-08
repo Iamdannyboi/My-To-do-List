@@ -1,0 +1,135 @@
+body {
+	background:url(./mypageimg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	height: 90vh;
+	width: 100%;
+	overflow: hidden;
+}
+.my{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.let{
+	width: 35px;
+	height: 35px;
+	/* margin-top: 50px; */
+}
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+h1 {
+	color:  peru;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+p {
+	font-weight: 550;
+}
+
+#first {
+	margin-top: 10px;
+	color: rgb(146, 89, 13);
+	font-size: 20px;
+}
+
+#second {
+	color: rgb(146, 89, 13);
+	font-size: 20px;
+}
+
+#third {
+	color:rgb(223, 65, 65);
+	margin-bottom: 30px;
+}
+#userInput{
+    outline: none;
+    padding: 15px 170px 15px 15px;
+	/* width: 450px; */
+	margin-right: 190px;
+}
+
+#enter {
+	border: none;
+	padding: 3px 5px;
+	/* margin-top: 500px; */
+	border-radius: 5px;
+	color: #04A1BF;
+	background-color: #c9ccbc;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: #2a8dd8;
+	color: #ffd800;
+}
+
+	ul {
+	text-align: left;
+	margin-top: 20px;
+} 
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	color: black;
+	width: 1100px;
+	margin-left: 80px;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #fffdd0;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76CFE0;
+	color: #fff;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #fffdd0;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+
+
+.done {
+	/* background: #51DF70 !important;
+	color: #00891E; */
+	text-decoration: line-through;
+}
+
+.delete {
+	display: none;
+}
